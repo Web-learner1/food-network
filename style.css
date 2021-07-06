@@ -1,4 +1,6 @@
 *{
+    margin: 0;
+    padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
     overflow-x: hidden;
     box-sizing: border-box;
@@ -11,6 +13,7 @@ h2{
     font-size: 40px;
     color: dimgray;
 }
+
 span{
     color: #4940E0;
 }
@@ -24,33 +27,44 @@ p{
 }
 .first-part{
     width: 50%;
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 .first-part img{
     width: 100%;
+    margin-top: 7px;
 }
-.first-link{
+.first-part a{
     text-decoration: none;
-    background-image: linear-gradient(to right,#5047E5 , #2217C9);
-    padding: 10px 20px;
+    background: #4940E0;
+    padding: 10px;
     color: white;
     border-radius: 20px;
+    display: inline-block;
+    margin-top: 20px;
 }
-.background{
-    background-image: url(images/shapes/Frame\ 56.jpg);
-    background-size: cover;
-    height: 600px;
-}
+
 .about-me{
     display: flex;
+    background-image: url(images/shapes/Frame\ 56.jpg);
+    background-size: cover;
 }
 .second-part{
     width: 50%;
     margin-left: 10px;
-    padding-top: 160px;
+    padding-top: 110px;
 }
 .second-part img{
     width: 100%;
+}
+.second-part a{
+    text-decoration: none;
+    background: #4940E0;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 20px;
 }
 .third-part{
     text-align: center;
@@ -60,7 +74,7 @@ p{
     width: 26.66%;
     margin-left: 5%;
     margin-top: 5%;
-    box-shadow: 10px 10px 20px 3px gray;
+    box-shadow: 10px 10px 20px 5px gray;
     border-radius: 25px;
 }
 .clm img{
@@ -75,5 +89,39 @@ p{
 .rounded-border{
     border-radius: 22px;
 }
+.social-media{
+    display: flex;
+    background-color: white;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px grey;
+    
+}
+.youtube-subscriber{
+    padding-left: 180px;
+}
+.instagram-followers{
+    padding-left: 295px;
+}
+.dribble-shot-likes{
+    padding-left: 267px;
+}
+footer{
+    background-color: black;
+    height: 100px;
+    text-align: center;
+}
+footer p{
+    margin-top: 15px;
+    font-size: 12px;
+    color: white;
+}
+h3{
+    font-size: 25px;
+   color: dimgray;
+   margin-top: 20px;
+}
+
 
 
