@@ -5,7 +5,10 @@
 h1{
     font-size: 60px;
     color: dimgray;
-    font-weight: bolder;
+}
+h2{
+    font-size: 40px;
+    color: dimgray;
 }
 span{
     color: #4940E0;
@@ -31,4 +34,20 @@ p{
     padding: 10px 20px;
     color: white;
     border-radius: 20px;
+}
+.background{
+    background-image: url(images/shapes/Frame\ 56.jpg);
+    background-size: cover;
+    height: 600px;
+}
+.about-me{
+    display: flex;
+}
+.second-part{
+    width: 50%;
+    margin-left: 10px;
+    padding-top: 160px;
+}
+.second-part img{
+    width: 100%;
 }
