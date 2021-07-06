@@ -1,12 +1,34 @@
 *{
     font-family: 'Source Sans Pro', sans-serif;
+    overflow-x: hidden;
 }
 h1{
     font-size: 60px;
+    color: dimgray;
+    font-weight: bolder;
 }
-.flexible-section{
+span{
+    color: #4940E0;
+}
+p{
+    color: dimgray;
+    font-size: 18px;
+}
+.order-food{
     display: flex;
+
 }
 .first-section{
     width: 50%;
+    margin-left: 10px;
+}
+.first-section img{
+    width: 100%;
+}
+.first-link{
+    text-decoration: none;
+    background-image: linear-gradient(to right,#5047E5 , #2217C9);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
 }
